@@ -1,0 +1,16 @@
+{
+  "name": "data-fetcher",
+  "private": true,
+  "engines": {
+    "node": "22"
+  },
+  "packageManager": "yarn@4.9.1",
+  "description": "Data Fetcher",
+  "repository": "git@github.com:arpepper139/data-fetcher.git",
+  "author": "apepperanderson@gmail.com",
+  "license": "MIT",
+  "workspaces": [
+    "example-app",
+    "libs/*"
+  ]
+}
